@@ -1,0 +1,19 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "some unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agriessel/unit-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agriessel/unit-testing/issues"
+  },
+  "homepage": "https://github.com/agriessel/unit-testing#readme"
+}
