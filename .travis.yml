@@ -1,14 +1,5 @@
 language: node_js
 node_js:
-  - "6"
   - "6.1"
 sudo: required
-script: sudo unlink /usr/bin/g++ && sudo ln -s /usr/bin/g++-5 /usr/bin/g++
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - gcc-4.8
-      - g++-4.8
-      - clang
+dist: trusty
