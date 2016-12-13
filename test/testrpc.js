@@ -1,7 +1,7 @@
 var chai = require("chai");
 var assert = chai.assert;
 var TestRPC = require("ethereumjs-testrpc");
-var Web3 = require("Web3");
+var Web3 = require("web3");
 
 var tests = function(web3, config) {
   describe("Initializing TestRPC", function() {
