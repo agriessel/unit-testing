@@ -1,7 +1,8 @@
-image: node
-script:
-  - npm -v
-  - node -v
-  - npm install
-  - npm test
+build:
+  image: node
+  commands:
+    - npm -v
+    - node -v
+    - npm install
+    - npm test
    
