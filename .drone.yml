@@ -1,4 +1,7 @@
 image: node
 script:
+  - npm -v
+  - node -v
   - npm install
   - npm test
+   
